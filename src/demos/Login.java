@@ -13,7 +13,7 @@ public class Login {
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.amazon.com");
 		driver.findElement(By.linkText("Sign in")).click();
-		driver.findElement(By.name("email")).sendKeys ("mailrajeshkarnam@gmail.com") ;
+		driver.findElement(By.name("email")).sendKeys ("userid") ;
 		driver.findElement(By.id("continue")).click();
 		driver.findElement(By.id("ap_password")).sendKeys("password");
 		driver.findElement(By.id("signInSubmit")).click();
